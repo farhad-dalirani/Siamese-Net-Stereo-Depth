@@ -107,13 +107,13 @@ if __name__ == '__main__':
     torch.manual_seed(0)
 
     # hyper parameters for training Siamese patch matcher
-    hyper_param = {'path_size': (9, 9), 'max_iteration': 1500, 'batch_size': 128, 'learning_rate': 1e-4}
+    hyper_param = {'path_size': (9, 9), 'max_iteration': 1500, 'batch_size': 128, 'learning_rate': 2e-4}
 
     # output directorty
     current_datetime = datetime.datetime.now()
     formatted_date = current_datetime.strftime('%Y-%m-%d')
     formatted_time = current_datetime.strftime('%H-%M-%S')
-    output_directory = './output-' + formatted_date + '-' + formatted_time
+    output_directory = './saved-model-' + formatted_date + '-' + formatted_time
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
 
