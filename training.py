@@ -5,14 +5,7 @@ from loss import hinge_loss
 from stereo_batch_provider import KITTIDisparityDataset, PatchProvider
 import os
 import datetime
-import time
 
-start_time = time.time()
-
-# Your code segment here
-
-end_time = time.time()
-execution_time = end_time - start_time
 
 def training(model, simialrity_score_calcualtor, batch_provider_train, batch_size, max_iterations, optimizer, device, batch_provider_val=None, eval_period=200):
     
