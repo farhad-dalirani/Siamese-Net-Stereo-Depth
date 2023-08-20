@@ -7,7 +7,7 @@ This repository contains a Siamese Convolutional Neural Network trained using Hi
 The following figures illustrate the Siamese network architecture and its comparison with the OpenCV block matching algorithm. As depicted, the Siamese network produces higher-quality disparity images.
 
 <p align="center">
-  <img src="readme-image/Disparity-Siamese-opencv.gif" alt="Siamese vs OpenCV" width="900">
+  <img src="readme-image/Disparity-Siamse-opencv.gif" alt="Siamese vs OpenCV" width="900">
 </p> 
 <p align="center">
   <img src="readme-image/model-arch.png" alt="Model Architecture" width="900">
