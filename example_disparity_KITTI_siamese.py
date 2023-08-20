@@ -38,7 +38,7 @@ if __name__ == '__main__':
         # Create the second subplot for disparity_map
         plt.subplot(2, 1, 2)
         plt.imshow(disparity_map)
-        plt.title('Disparity Map')
+        plt.title('Disparity Map (Siamese CNN)')
         plt.axis('off')  
         plt.tight_layout()
     
