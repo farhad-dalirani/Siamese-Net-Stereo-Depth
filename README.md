@@ -14,5 +14,7 @@ The following figures illustrate the Siamese network architecture and its compar
 </p> 
 
 To experiment with more complex neural networks, modify the PyTorch model in `model.py`.
-For more intricate models, you can augment the `KITTI_disparity_subset` dataset with more sampe of KITTI.
+
+For more intricate models, you can augment the `KITTI_disparity_subset` dataset with more samples of KITTI.
+
 To generate disparity maps, utilize the functions in `disparity_map.py`, and refer to the example in `example_disparity_KITTI_siamese.py`.
